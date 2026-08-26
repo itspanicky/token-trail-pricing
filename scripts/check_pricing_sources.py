@@ -12,6 +12,14 @@ from pathlib import Path
 SOURCES = [
     "https://developers.openai.com/api/docs/models",
     "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+    "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+    "https://developers.openai.com/api/docs/models/gpt-5.5",
+    "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+    "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
+    "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
     "https://platform.claude.com/docs/en/about-claude/pricing",
 ]
 
