@@ -1,0 +1,42 @@
+name: Pricing source monitor
+
+on:
+  schedule:
+    - cron: "17 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check official pricing sources
+        run: python3 scripts/check_pricing_sources.py source-fingerprints.json
+
+      - name: Open a review PR when sources change
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- source-fingerprints.json; then
+            echo "No official pricing source changes detected."
+            exit 0
+          fi
+
+          branch="automation/review-pricing-sources"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add source-fingerprints.json
+          git commit -m "Flag official pricing source changes"
+          git push --force origin "$branch"
+
+          if gh pr view "$branch" >/dev/null 2>&1; then
+            gh pr edit "$branch" --body "Official provider pricing content changed. Review the linked sources, update pricing-catalog.json with effective-dated entries and a bumped catalogVersion if needed, then merge this fingerprint refresh."
+          else
+            gh pr create --head "$branch" --title "Review official model pricing changes" --body "Official provider pricing content changed. Review the linked sources, update pricing-catalog.json with effective-dated entries and a bumped catalogVersion if needed, then merge this fingerprint refresh."
+          fi

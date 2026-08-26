@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/models",
+      "visibleTextSHA256": "66d180b432ca5b5356bb082a977459e88d962290d5280aa7944a35fb1c37ed76"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "visibleTextSHA256": "48fdb523838171cdfbac87e65d14c1a94c3bfaf1064862faea6ac53a072de460"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "visibleTextSHA256": "7f21eb5f012c23e91dd73b2d4bd41fe08f45722e6ffcda7efe3d22723e39d24a"
+    }
+  ]
+}
