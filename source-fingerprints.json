@@ -2,47 +2,47 @@
   "sources": [
     {
       "url": "https://developers.openai.com/api/docs/models",
-      "visibleTextSHA256": "66d180b432ca5b5356bb082a977459e88d962290d5280aa7944a35fb1c37ed76"
+      "visibleTextSHA256": "5f4fec2e6a78eedd94563d789091c246b34d023cb8505620a4a7ee641ccc99a1"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
-      "visibleTextSHA256": "48fdb523838171cdfbac87e65d14c1a94c3bfaf1064862faea6ac53a072de460"
+      "visibleTextSHA256": "a9cce8028ed38b507e09f9fad93c1683a305ca066f2a308ffb767921f7d09932"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
-      "visibleTextSHA256": "d97371da2d9cb3a973f35a57093cb0713020c80831b1a0d881a265e6962c032f"
+      "visibleTextSHA256": "34f601955d8ae8411b71cf294240577c7cc14984265b34655a6d045bd99de3ba"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
-      "visibleTextSHA256": "8bf76d4706e030293180f1535cbba69de595a5221c0a0db4c9905ad540bdea42"
+      "visibleTextSHA256": "5cac3adfac99d7f811f1cb6db29a3c889a8c4d53883bbed86c1364e186acadc6"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.5",
-      "visibleTextSHA256": "47f4bb77864b3def529669c340f9415bc434418d091b8ef58a4d983691a6cc63"
+      "visibleTextSHA256": "61f85137c5b54118556ba1c9acef1b6349c41b9836d4fcc2d3d22327a8ca8842"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.4",
-      "visibleTextSHA256": "8dfaf9c254475943a39f02c7149fc1b9889d23d4f729f2bb78270d62d173277f"
+      "visibleTextSHA256": "296b8808c928a8af796602600ce0aa5920075c51bdb3302a6f6b8a9b6326c90c"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
-      "visibleTextSHA256": "5fc1c569d2ca1fcec824222178c9be86d5f9fdb39a96e155445e588607edb115"
+      "visibleTextSHA256": "399636883e125dbe5040d7ffd84a08365aa6b8f4d12da81852dddd6f4fd7501a"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
-      "visibleTextSHA256": "f82c31029722d8d520353ada23a2f3ceb80301521f3a1cafd09eb56d4996db26"
+      "visibleTextSHA256": "751813a5f2aed6bffdca2852149185fe9ace1e7579203514746f8399521d0c51"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
-      "visibleTextSHA256": "7ecacee366862c7d6fae2954fd7ef8b834886ec0806ad39540a4b14c6c0a5fae"
+      "visibleTextSHA256": "ebda9eb0fe3caf02d90696427e0ac22d6aed53514a5bef8ee9460564910f1eaf"
     },
     {
       "url": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
-      "visibleTextSHA256": "da4b00fb8a7f22af943bae395327f1461b146e2a1a771956056e3d5d334938c8"
+      "visibleTextSHA256": "e82460812369f1a9f632980a27f2716df42a2f3097bf2e2828dab1342152a410"
     },
     {
       "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-      "visibleTextSHA256": "7f21eb5f012c23e91dd73b2d4bd41fe08f45722e6ffcda7efe3d22723e39d24a"
+      "visibleTextSHA256": "2febcceb5f2a94b1644689f0520f2df5cde4b2bd85882a8640de9ea0f2301d03"
     }
   ]
 }
